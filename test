@@ -1,0 +1,25 @@
+# Non-monotonic testing for paper writing short version——2025.06.26
+import tensorflow.compat.v1 as tf
+tf.compat.v1.disable_eager_execution()
+#import tensorflow as tf
+import os
+import numpy as np
+import matplotlib.image as mpimg
+import matplotlib.pyplot as plt # plt 用于显示图片
+import matplotlib.patches as mpatches
+#import seaborn as sns
+from PIL import Image,ImageFont,ImageDraw
+from matplotlib.pyplot import MultipleLocator
+from matplotlib import font_manager
+import time
+#import h5py
+import cv2
+from pylab import *
+from numpy import *
+import cv2
+from skimage import data, io, transform, color, measure, segmentation, morphology, feature, filters # Gabor
+from skimage.feature import greycomatrix, greycoprops, local_binary_pattern # GLCM
+from sklearn.metrics import confusion_matrix # Confusion_matrix
+import pandas as pd # for excel
+from openpyxl import Workbook
+print('loading complete')
